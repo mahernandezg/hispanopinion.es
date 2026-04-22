@@ -418,6 +418,18 @@ body:not(.editor-styles-wrapper) [class*="is-style-vermeer-marquee-"] .slider {
   margin: 0;
 }
 
+.hispanopinion-hero-cover .wp-block-cover__image-background {
+  filter: brightness(0.74) contrast(1.04) saturate(0.92);
+}
+
+.hispanopinion-hero-cover .wp-block-cover__background.has-background-dim-0 {
+  opacity: 1;
+  background-color: transparent !important;
+  background-image:
+    radial-gradient(circle at center, rgba(7, 10, 24, 0.04) 0%, rgba(7, 10, 24, 0.18) 46%, rgba(7, 10, 24, 0.42) 100%),
+    linear-gradient(180deg, rgba(20, 15, 11, 0.10) 0%, rgba(20, 15, 11, 0.24) 100%);
+}
+
 @media (max-width: 781px) {
   :root .is-style-vermeer-cover-mobile-3x4 {
     min-height: 132vw !important;
